@@ -6,4 +6,5 @@ From Coursera https://www.coursera.org/learn/building-deep-learning-models-with-
 1. `ML0120EN-1.1-Review-TensorFlow-Hello-World.ipynb`: **Hello world** example
    * `1_initial_graph.py`: Initial test with setting up and running a graph
    * `1_variables.py`: Setting up variables in a graph
+   * `1_placeholders.py`: Setting up a placeholder and adding a variable to it
 
