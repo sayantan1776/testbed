@@ -8,3 +8,6 @@ From Coursera https://www.coursera.org/learn/building-deep-learning-models-with-
    * `1_variables.py`: Setting up variables in a graph
    * `1_placeholders.py`: Setting up a placeholder and adding a variable to it
 
+2. `ML0120EN-1.2-Review-LinearRegressionwithTensorFlow.ipynb`: **Linear regression** example
+   * `2_linear_regression.py`: Linear regression script using tensorflow
+
