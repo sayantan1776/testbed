@@ -11,3 +11,4 @@ From Coursera https://www.coursera.org/learn/building-deep-learning-models-with-
 2. `ML0120EN-1.2-Review-LinearRegressionwithTensorFlow.ipynb`: **Linear regression** example
    * `2_linear_regression.py`: Linear regression script using tensorflow
 
+3. `ML0120EN-1.4-Review-LogisticRegressionwithTensorflow.ipynd`: **Logistic regression** example
