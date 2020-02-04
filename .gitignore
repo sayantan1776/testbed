@@ -1,1 +1,5 @@
 .DS_Store
+.ycm_extra_conf.py
+.ipynb_checkpoints/
+summary_logs/
+.ipynb_checkpoints
