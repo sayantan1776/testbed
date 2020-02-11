@@ -27,10 +27,11 @@ def train(linear_model, x, y, lr=0.12):
 
 linear_model = LinearModel()
 Weights, Biases = [], []
-epochs = 10
+epochs = 200
 for epoch_count in range(epochs):
     Weights.append(linear_model.Weight.numpy()) 
     Biases.append(linear_model.Bias.numpy())
     real_loss = loss(y, linear_model(x))
     train(linear_model, x, y, lr=0.12)
-    print(f"Epoch count {epoch_count}: Loss value: {real_loss.numpy()}")
+    print(f'Epoch count {epoch_count}: Loss value: {real_loss.numpy()}')
+print(f'Final weight: {Weights[-1]}, Final bias: {Biases[-1]}')
