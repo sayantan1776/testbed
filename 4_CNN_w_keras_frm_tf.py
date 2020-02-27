@@ -1,6 +1,13 @@
 from __future__ import absolute_import, division, print_function, unicode_literals
+import os; os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 import tensorflow as tf
+
+gpus = tf.config.list_physical_devices('GPU')
+try:
+    tf.config.experimental.set_memory_growth(gpus[0], True)
+except:
+    pass
 
 from tensorflow.keras import datasets, layers, models
 import matplotlib.pyplot as plt
